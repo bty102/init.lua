@@ -1,3 +1,5 @@
+-- plugin manager: vim-plug - https://github.com/junegunn/vim-plug
+
 local vim = vim
 local Plug = vim.fn['plug#']
 
@@ -16,5 +18,6 @@ Plug('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.7' })
 Plug('fannheyward/telescope-coc.nvim')
 Plug('lukas-reineke/indent-blankline.nvim')
 Plug('voldikss/vim-floaterm')
+Plug('tpope/vim-commentary')
 
 vim.call('plug#end')

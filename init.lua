@@ -1,3 +1,11 @@
+-- ██ ███    ██ ██ ████████    ██      ██    ██  █████  
+-- ██ ████   ██ ██    ██       ██      ██    ██ ██   ██ 
+-- ██ ██ ██  ██ ██    ██       ██      ██    ██ ███████ 
+-- ██ ██  ██ ██ ██    ██       ██      ██    ██ ██   ██ 
+-- ██ ██   ████ ██    ██    ██ ███████  ██████  ██   ██ 
+
+-- Config by BTY (https://www.facebook.com/phamngocmongphuoc)
+
 require('options')
 require('autocmds')
 require('plugins')
@@ -10,3 +18,4 @@ require('plugins.nvim-treesitter')
 require('plugins.telescope')
 require('plugins.indent-blankline')
 require('plugins.vim-floaterm')
+require('plugins.vim-commentary')
