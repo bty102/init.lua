@@ -1,0 +1,56 @@
+{
+    // diagnostic
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+
+    // suggest
+    "suggest.formatItems": [
+        "kind",
+        "abbr",
+        "menu",
+        "shortcut"
+    ],
+    "suggest.completionItemKindLabels": {
+        "text": "󰊄",
+        "method": "",
+        "function": "󰡱",
+        "constructor": "",
+        "field": "",
+        "variable": "󰫧",
+        "class": "",
+        "interface": "",
+        "module": "󰅩",
+        "property": "",
+        "unit": "",
+        "value": "",
+        "enum": "",
+        "keyword": "",
+        "snippet": "",
+        "color": "",
+        "file": "",
+        "reference": "",
+        "folder": "",
+        "enumMember": "",
+        "constant": "",
+        "struct": "",
+        "event": "",
+        "operator": "",
+        "typeParameter": "",
+        "default": ""
+    },
+
+    // preferences
+    "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+
+    // semanticTokens
+    "semanticTokens.enable": true,
+
+    // coc-sumneko-lua
+    "sumneko-lua.enableNvimLuaDev": true,
+
+    // coc-lightbulb
+    "lightbulb.text": {
+        "default": "💡", // text used when there're code actions
+        "quickfix": "✨" // text used when there're code actions and quickfix exists
+    }
+}
