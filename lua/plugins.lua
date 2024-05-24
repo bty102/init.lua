@@ -26,6 +26,7 @@ Plug('honza/vim-snippets')
 
 -- tree-sitter
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
+Plug('nvim-treesitter/nvim-treesitter-context')
 
 -- telescope
 Plug('nvim-lua/plenary.nvim')
