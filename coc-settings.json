@@ -52,5 +52,8 @@
     "lightbulb.text": {
         "default": "💡", // text used when there're code actions
         "quickfix": "✨" // text used when there're code actions and quickfix exists
-    }
+    },
+
+    // coc-highlight
+    "colors.enable": true, // add colors support for all filetypes
 }
