@@ -5,7 +5,8 @@ let g:coc_global_extensions = [
     \'coc-snippets',
     \'coc-pairs',
     \'coc-lightbulb',
-    \'coc-clangd'
+    \'coc-clangd',
+    \'coc-java'
     \]
 ]])
 

@@ -45,7 +45,7 @@ Plug('tpope/vim-commentary')
 vim.call('plug#end')
 
 -- list of config
-require('config.themes')
+require('config.theme')
 require('config.nvim-tree')
 require('config.lualine')
 require('config.bufferline')

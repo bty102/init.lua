@@ -33,7 +33,8 @@ require("catppuccin").setup({
         indent_blankline = {
             enabled = true,
             scope_color = "overlay1",
-        }
+        },
+        treesitter_context = true
     }
 })
 
