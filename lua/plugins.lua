@@ -42,6 +42,9 @@ Plug('voldikss/vim-floaterm')
 -- comment
 Plug('tpope/vim-commentary')
 
+-- dropbar
+Plug('Bekaboo/dropbar.nvim')
+
 vim.call('plug#end')
 
 -- list of config

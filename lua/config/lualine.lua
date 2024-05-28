@@ -8,31 +8,33 @@ require('lualine').setup({
             winbar = {"NvimTree", "coctree"},
         },
     },
-    winbar = {
-        lualine_a = {},
-        lualine_b = {},
+    sections = {
+        lualine_a = { 'mode' },
+        lualine_b = {
+            {
+                'branch',
+                icon = ''
+            },
+            'diff',
+            'diagnostics'
+        },
         lualine_c = {
             {
                 'filename',
-                path = 2,
                 symbols = {
-                    modified = '',
-                    readonly = '',
-                    unnamed = '',
+                    modified = '', -- Text to show when the file is modified.
+                    readonly = '', -- Text to show when the file is non-modifiable or readonly.
                 }
-            },
+            }
+        },
+        lualine_x = { 'b:coc_current_function', 'g:coc_status', 'encoding', 'fileformat', 'filetype' },
+        lualine_y = { 'progress' },
+        lualine_z = {
             {
-                'filetype',
-                -- icon_only = true,
-            },
-            'b:coc_current_function',
-        },
-        lualine_x = {
-            'g:coc_status'
-        },
-        lualine_y = {},
-        lualine_z = {}
+                'location',
+                icon = ''
+            }
+        }
     },
-    inactive_winbar = {},
     extensions = { 'nvim-tree' }
 })
